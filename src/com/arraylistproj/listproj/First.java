@@ -1,12 +1,13 @@
-package com.assignment.partTwo;
+package com.arraylistproj.listproj;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class arrayList {
-
+public class First {
+	
+	//write a java program to iterate through all elements in an array list.
+	
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		
@@ -14,6 +15,7 @@ public class arrayList {
 		System.out.println("Enter the range of array List");
 		int n=Integer.parseInt( sc.nextLine());
 		System.out.println("ENter the values");
+		
 		
 		for(int i=0;i<n;i++) {
 			b.add(sc.nextInt());
@@ -27,7 +29,7 @@ public class arrayList {
 			b.remove(3);
 	
 	System.out.println(b);
+	sc.close();
 
-	}
-
+}
 }
